@@ -31,8 +31,8 @@ export async function initializeContract() {
     window.walletConnection.account(),
     nearEnv.contractName,
     {
-      viewMethods: ['getProduct', 'getProducts'],
-      changeMethods: ['buyProduct', 'setProduct'],
+      viewMethods: ['getQuote', 'getQuotes'],
+      changeMethods: ['likeQuote', 'addQuote'],
     }
   );
 }

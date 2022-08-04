@@ -15,6 +15,7 @@ const Cover = ({ name, login, coverImg }) => {
             <img src={coverImg} alt='' />
           </div>
           <h1>{name}</h1>
+          <h4>A collection of the world's finest quotes</h4>
           <p>Please connect your wallet to continue.</p>
           <Button
             onClick={login}
@@ -23,7 +24,9 @@ const Cover = ({ name, login, coverImg }) => {
             Connect Wallet
           </Button>
         </div>
-        <p className='mt-auto text-secondary'>Powered by NEAR</p>
+        <p className='mt-auto text-secondary'>
+          developed by Omar AbdulRahman, powered by NEAR
+        </p>
       </div>
     );
   }

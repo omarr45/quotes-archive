@@ -5,10 +5,9 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { accountBalance, logout as destroy, login } from './utils/near';
 
 import Cover from './components/utils/Cover';
-// import { Notification } from './components/utils/Notifications';
-import Products from './components/marketplace/Products';
+import Quotes from './components/marketplace/Quotes';
 import Wallet from './components/Wallet';
-import coverImg from './assets/img/sandwich.jpg';
+import coverImg from './assets/img/cover.png';
 
 const App = function AppWrapper() {
   const account = window.walletConnection.account();
@@ -19,7 +18,7 @@ const App = function AppWrapper() {
     if (account.accountId) {
       setBalance(await accountBalance());
     }
-  });
+  }, [account]);
 
   useEffect(() => {
     getBalance();
@@ -41,42 +40,14 @@ const App = function AppWrapper() {
             </Nav.Item>
           </Nav>
           <main>
-            <Products />
+            <Quotes />
           </main>
         </Container>
       ) : (
-        <Cover name='Street Food' login={login} coverImg={coverImg} />
+        <Cover name='The Quotes Archive' login={login} coverImg={coverImg} />
       )}
     </>
   );
 };
 
 export default App;
-
-// function App() {
-//   const account = window.walletConnection.account();
-
-//   const [products, setProducts] = useState([]);
-
-//   const fetchProducts = useCallback(async () => {
-//     if (account.accountId) {
-//       setProducts(await getProducts());
-//     }
-//   }, [account]);
-
-//   useEffect(() => {
-//     fetchProducts();
-//   }, [fetchProducts]);
-
-//   return (
-//     <>
-//       {account.accountId ? (
-//         products.forEach((product) => console.log(product))
-//       ) : (
-//         <button onClick={login}>CONNECT WALLET</button>
-//       )}
-//     </>
-//   );
-// }
-
-// export default App;
