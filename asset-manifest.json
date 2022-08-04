@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/near-101-market/static/css/main.d87cbb72.chunk.css",
-    "main.js": "/near-101-market/static/js/main.4bb6a9a3.chunk.js",
-    "main.js.map": "/near-101-market/static/js/main.4bb6a9a3.chunk.js.map",
-    "runtime-main.js": "/near-101-market/static/js/runtime-main.26e0ceb6.js",
-    "runtime-main.js.map": "/near-101-market/static/js/runtime-main.26e0ceb6.js.map",
-    "static/css/2.c38d0ff3.chunk.css": "/near-101-market/static/css/2.c38d0ff3.chunk.css",
-    "static/js/2.f12b18a0.chunk.js": "/near-101-market/static/js/2.f12b18a0.chunk.js",
-    "static/js/2.f12b18a0.chunk.js.map": "/near-101-market/static/js/2.f12b18a0.chunk.js.map",
-    "index.html": "/near-101-market/index.html",
-    "static/css/2.c38d0ff3.chunk.css.map": "/near-101-market/static/css/2.c38d0ff3.chunk.css.map",
-    "static/css/main.d87cbb72.chunk.css.map": "/near-101-market/static/css/main.d87cbb72.chunk.css.map",
-    "static/js/2.f12b18a0.chunk.js.LICENSE.txt": "/near-101-market/static/js/2.f12b18a0.chunk.js.LICENSE.txt",
-    "static/media/bootstrap-icons.css": "/near-101-market/static/media/bootstrap-icons.ea98e12d.woff2"
+    "main.css": "/quotes-archive/static/css/main.d87cbb72.chunk.css",
+    "main.js": "/quotes-archive/static/js/main.b7111013.chunk.js",
+    "main.js.map": "/quotes-archive/static/js/main.b7111013.chunk.js.map",
+    "runtime-main.js": "/quotes-archive/static/js/runtime-main.2d247b41.js",
+    "runtime-main.js.map": "/quotes-archive/static/js/runtime-main.2d247b41.js.map",
+    "static/css/2.0ed4cfb4.chunk.css": "/quotes-archive/static/css/2.0ed4cfb4.chunk.css",
+    "static/js/2.9dbffeeb.chunk.js": "/quotes-archive/static/js/2.9dbffeeb.chunk.js",
+    "static/js/2.9dbffeeb.chunk.js.map": "/quotes-archive/static/js/2.9dbffeeb.chunk.js.map",
+    "index.html": "/quotes-archive/index.html",
+    "static/css/2.0ed4cfb4.chunk.css.map": "/quotes-archive/static/css/2.0ed4cfb4.chunk.css.map",
+    "static/css/main.d87cbb72.chunk.css.map": "/quotes-archive/static/css/main.d87cbb72.chunk.css.map",
+    "static/js/2.9dbffeeb.chunk.js.LICENSE.txt": "/quotes-archive/static/js/2.9dbffeeb.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-icons.css": "/quotes-archive/static/media/bootstrap-icons.ea98e12d.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.26e0ceb6.js",
-    "static/css/2.c38d0ff3.chunk.css",
-    "static/js/2.f12b18a0.chunk.js",
+    "static/js/runtime-main.2d247b41.js",
+    "static/css/2.0ed4cfb4.chunk.css",
+    "static/js/2.9dbffeeb.chunk.js",
     "static/css/main.d87cbb72.chunk.css",
-    "static/js/main.4bb6a9a3.chunk.js"
+    "static/js/main.b7111013.chunk.js"
   ]
 }
