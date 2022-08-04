@@ -1,6 +1,6 @@
 {
-  "homepage": "https://omarr45.github.io/near-101-market",
-  "name": "near-101-market",
+  "homepage": "https://omarr45.github.io/quotes-archive",
+  "name": "quotes-archive",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
