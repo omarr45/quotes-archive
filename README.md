@@ -6,4 +6,4 @@
 ## Check the demo [here](https://omarr45.github.io/quotes-archive/)
 
 ![Screenshot-01](https://user-images.githubusercontent.com/58887202/182913382-72c518f5-f1c1-493e-8496-50c863046b5f.png)
-![Screenshot-02](https://user-images.githubusercontent.com/58887202/182912752-f4c55a1c-1acc-429b-84ca-e6ea8218b4fd.png)
+![Screenshot-02](https://user-images.githubusercontent.com/58887202/185799476-0bb5f0bb-b89f-40a6-8d33-008c584a8671.png)
