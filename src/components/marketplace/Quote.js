@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { utils } from 'near-api-js';
 
-const Quote = ({ quote, like }) => {
+const Quote = ({ quote, like, liked }) => {
   const { id, price, text, likes, character, owner } = quote;
 
   const triggerLike = () => {
@@ -26,8 +26,16 @@ const Quote = ({ quote, like }) => {
       <Card className=' h-100'>
         <Card.Header>
           <Stack direction='horizontal' gap={2}>
-            <span className='font-monospace text-secondary'>{owner}</span>
-            <Badge bg='primary' className='ms-auto'>
+            <span
+              className={`font-monospace ${
+                liked ? 'text-danger' : 'text-secondary'
+              }`}>
+              {owner}
+            </span>
+            <Badge
+              bg={liked ? 'danger' : 'primary'}
+              className='ms-auto'
+              title={liked ? 'Liked before' : 'Not liked yet'}>
               {likes} ♥
             </Badge>
           </Stack>
@@ -40,7 +48,7 @@ const Quote = ({ quote, like }) => {
             <span>{character}</span>
           </Card.Text>
           <Button
-            variant='outline-dark'
+            variant={liked ? 'outline-danger' : 'outline-dark'}
             onClick={triggerLike}
             className='w-100 py-3'
             style={{ marginTop: 'auto' }}>

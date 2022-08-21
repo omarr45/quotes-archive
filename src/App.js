@@ -29,8 +29,8 @@ const App = function AppWrapper() {
       {/* <Notification /> */}
       {account.accountId ? (
         <Container fluid='md'>
-          <Nav className='justify-content-end pt-3 pb-5'>
-            <Nav.Item>
+          <Nav className='justify-content-end pt-3 pb-4'>
+            <Nav.Item className='d-flex align-items-center'>
               <Wallet
                 address={account.accountId}
                 amount={balance}

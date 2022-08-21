@@ -16,6 +16,7 @@ const AddQuote = ({ save }) => {
   return (
     <>
       <Button
+        title='Add a new quote'
         onClick={handleShow}
         variant='dark'
         className='rounded-pill px-0'

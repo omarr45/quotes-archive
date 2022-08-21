@@ -14,6 +14,10 @@ export function getQuotes() {
   return window.contract.getQuotes();
 }
 
+export function getUserQuotes() {
+  return window.contract.getUserQuotes();
+}
+
 export async function likeQuote({ id, price }) {
   await window.contract.likeQuote({ quoteId: id }, GAS, price);
 }

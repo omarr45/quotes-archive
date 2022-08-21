@@ -32,7 +32,7 @@ export async function initializeContract() {
     nearEnv.contractName,
     {
       viewMethods: ['getQuote', 'getQuotes'],
-      changeMethods: ['likeQuote', 'addQuote'],
+      changeMethods: ['likeQuote', 'addQuote', 'getUserQuotes'],
     }
   );
 }

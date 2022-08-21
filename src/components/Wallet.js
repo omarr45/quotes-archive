@@ -1,4 +1,4 @@
-import { Dropdown, Spinner, Stack } from 'react-bootstrap';
+import { Badge, Dropdown, Spinner, Stack } from 'react-bootstrap';
 
 import React from 'react';
 
@@ -6,6 +6,9 @@ const Wallet = ({ address, amount, symbol, destroy }) => {
   if (address) {
     return (
       <>
+        <Badge className='me-3' bg='info' text='dark'>
+          {address}
+        </Badge>
         <Dropdown>
           <Dropdown.Toggle
             variant='light'
