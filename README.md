@@ -1,6 +1,7 @@
 # The Quotes Archive
 
 ### a dApp that aims to collect the world's finest quotes, also you can show that you like a quote by donating some tokens to it
+### Check the code for the contract [here](https://github.com/omarr45/near-101-contract)
 
 ## Check the demo [here](https://omarr45.github.io/quotes-archive/)
 
